@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faSearch } from '@fortawesome/free-solid-svg-icons'
+import {  faSearch } from '@fortawesome/free-solid-svg-icons'
 import {Link} from 'react-router-dom'
 import Style from './Header.module.scss'
 const Header = () => {
