@@ -12,7 +12,7 @@ const Top = () => {
 console.log('data', res)
 setGlobalState({type: 'SET_POPULAR', payload: {popular: res.data.items}})
         })
-        
+        // eslint-disable-next-line
     }, [])
     return (
         <Layout>
