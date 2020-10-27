@@ -7,5 +7,6 @@ export const Serach = () => {
             Serach page
         </Layout>
     )
+    
 }
 export default Serach

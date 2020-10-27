@@ -2,7 +2,6 @@ import React, { useContext } from 'react'
 import { Store } from '../../store/index'
 import SideListItem from '../SideListItem/SideListItem'
 import Style from './SideList.module.scss'
-
 const SideList = () => {
     const { globalState } = useContext(Store)
     return (

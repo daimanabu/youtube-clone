@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Serach from './pages/Serach';
+import Search from './pages/Search';
 import Top from './pages/Top'
 import Watch from './pages/Watch';
 
@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path='/' component={Top}/>
-        <Route exact path='/serch' component={Serach}/>
+        <Route exact path='/search' component={Search}/>
         <Route exact path='/watch' component={Watch}/>
 
       </Switch>
