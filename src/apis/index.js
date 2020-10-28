@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const KEY = 'AIzaSyCDyLcEue8imfoubIUVQr2SHCL5ozggfoA'
+const KEY = 'AIzaSyCpPcKwHSKRh43MS2rFcOtP_EsARzL2Ej4'
 
 
 const youtube = axios.create({
@@ -38,6 +38,15 @@ export const fetchRelatedData = async (id) => {
         params: {
             ...params,
             relatedToVideoID: id
+        }
+    })
+}
+
+export const fetchSearchData = async (query) => {
+    return await youtube.get('/search', {
+        params: {
+            ...params,
+            q: query
         }
     })
 }
